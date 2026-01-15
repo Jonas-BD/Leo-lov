@@ -1,0 +1,38 @@
+@use "../../styles/variables" as *;
+
+.header {
+    border-top: 8px solid $blue;
+    text-align: center;
+    font-size: 2rem;
+    color: $white;
+
+    div {
+        position: absolute;
+        top: 20%;
+        left: 52%;
+        z-index: 1;
+        text-align: left;
+
+        span {
+            color: $blue;
+        }
+
+        h1 {
+            font-size: 6rem;
+            font-weight: 300;
+        }
+
+        h5 {
+            font-weight: 300;
+        }
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+        padding: 0;
+        margin: 0;
+    }
+}

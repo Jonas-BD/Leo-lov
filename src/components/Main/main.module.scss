@@ -1,0 +1,22 @@
+@use "../../styles/variables" as *;
+
+.sectionOne {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    top: 110vh;
+
+    article {
+        background-color: $white;
+        border: 1px solid;
+        border-radius: 3%;
+        padding: 1rem;
+        margin: 3rem;
+        
+        h3 {
+            color: $blue;
+            text-align: center;
+        }
+
+    }
+}
