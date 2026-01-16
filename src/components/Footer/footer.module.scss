@@ -1,0 +1,28 @@
+@use "../../styles/variables" as *;
+
+.footer {
+    background-color: $dark-blue;
+    color: $white;
+    padding: 2rem 10rem;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .social {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .icon {
+        width: 48px;
+        height: 48px;
+        border: 1px solid $white;
+        border-radius: 8px;
+        color: $white;
+    }
+}

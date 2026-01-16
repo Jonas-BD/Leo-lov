@@ -8,6 +8,18 @@
     z-index: 1000;
     grid-template-columns: repeat(2, 1fr);
 
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 2rem;
+        font-size: 2rem;
+
+        span {
+            color: $blue;
+        }
+    }
+
     ul {
         display: flex;
         gap: 1rem;

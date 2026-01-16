@@ -8,15 +8,100 @@
 
     article {
         background-color: $white;
-        border: 1px solid;
         border-radius: 3%;
-        padding: 1rem;
+        padding: 2rem;
         margin: 3rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
         
         h3 {
             color: $blue;
             text-align: center;
+            margin-bottom: 2rem;
         }
 
+    }
+}
+
+.sectionTwo {
+    margin-top: 50vh;
+    figure {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 4px solid $dark-blue;
+
+        figcaption {
+            margin: 0;
+            padding: 0 4rem;
+
+            h3 {
+                color: $blue;
+            }
+
+            p {
+                margin-top: 4rem;
+            }
+        }
+
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.sectionThree {
+    padding: 4rem 2rem;
+
+    h1 {
+        color: $blue;
+        margin: 0 0 2rem 0;
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+        align-items: start;
+
+        figcaption {
+            border-bottom: 5px solid $dark-blue;
+        }
+
+        h4 {
+            color: $blue;
+        }
+    }
+}
+
+.sectionFour {
+    
+    figure {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 6px solid $dark-blue;
+        
+        img {
+            border-right: 6px solid $dark-blue;
+        }
+
+        figcaption {
+            margin: 4rem;
+
+            h2 {
+                color: $blue;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    color: $blue;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }
